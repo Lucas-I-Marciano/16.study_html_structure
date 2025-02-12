@@ -8,7 +8,7 @@ body {
   /* The background-color CSS property sets the background color of an element. */
   color: #f2e3d5;
   /* The color CSS property sets the foreground color value of an element's text    */
-  height: 100vh;
+  height: 85vh;
   /* vh = The full form of VH is viewport height. It works like the percentage unit as well */
   box-sizing: border-box;
   /* The box-sizing CSS property sets how the total width and height of an element is calculated */
@@ -23,6 +23,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  margin: 5%;
 }
 
 /* 
