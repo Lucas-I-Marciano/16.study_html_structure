@@ -29,6 +29,10 @@ body {
   margin: 5%;
 }
 
+.presentation__content {
+  width: 600px;
+}
+
 .presentation__content__title {
   font-family: "Krona One", serif;
   font-size: 36px;
