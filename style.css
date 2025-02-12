@@ -5,7 +5,7 @@ body {
   /* The color CSS property sets the foreground color value of an element's text    */
 }
 
-strong {
+.highlight-title {
   color: #3ca6a6;
 }
 /* 
