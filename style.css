@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #012e40;
+  /* The background-color CSS property sets the background color of an element. */
+  color: #f2e3d5;
+  /* The color CSS property sets the foreground color value of an element's text    */
+  height: 85vh;
+  /* vh = The full form of VH is viewport height. It works like the percentage unit as well */
+  box-sizing: border-box;
+  /* The box-sizing CSS property sets how the total width and height of an element is calculated */
+  /* border-box tells the browser to account for any border and padding in the values you specify for an element's width and height */
+}
+
+.highlight-title {
+  color: #3ca6a6;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.presentation__content {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.presentation__content__title {
+  font-family: "Krona One", serif;
+  font-size: 36px;
+}
+
+.presentation__content__text {
+  font-family: "Montserrat", serif;
+  font-size: 24px;
+}
+
+.presentation__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.presentation__links__link {
+  background-color: #3ca6a6;
+  width: 280px;
+  text-align: center;
+  border-radius: 16px;
+  padding: 21.5px 0px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+}
+
+/* 
+My Pallet:
+#012E40
+#024959
+#026773
+#3CA6A6
+#F2E3D5
+*/
