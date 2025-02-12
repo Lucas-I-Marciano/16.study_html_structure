@@ -8,6 +8,8 @@ body {
   /* The background-color CSS property sets the background color of an element. */
   color: #f2e3d5;
   /* The color CSS property sets the foreground color value of an element's text    */
+  height: 100vh;
+  /* vh = The full form of VH is viewport height. It works like the percentage unit as well */
 }
 
 .highlight-title {
