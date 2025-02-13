@@ -1,14 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap");
 
+:root {
+  --first-color: #012e40;
+  --color-hover: #024959;
+  --second-color: #f2e3d5;
+  --third-color: #3ca6a6;
+
+  --first-font: "Montserrat", serif;
+  --second-font: "Krona One", serif;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #012e40;
+  background-color: var(--first-color);
   /* The background-color CSS property sets the background color of an element. */
-  color: #f2e3d5;
+  color: var(--second-color);
   /* The color CSS property sets the foreground color value of an element's text    */
   /* height: 85vh; */
   /* vh = The full form of VH is viewport height. It works like the percentage unit as well */
@@ -25,14 +35,14 @@ body {
 
 .header__nav__link {
   text-decoration: none;
-  color: #f2e3d5;
-  font-family: "Montserrat", serif;
+  color: var(--second-color);
+  font-family: var(--first-font);
   font-size: 16px;
   font-weight: 600;
 }
 
 .highlight-title {
-  color: #3ca6a6;
+  color: var(--third-color);
 }
 .highlight-title:hover {
   text-decoration: underline;
@@ -55,12 +65,12 @@ body {
 }
 
 .presentation__content__title {
-  font-family: "Krona One", serif;
+  font-family: var(--second-font);
   font-size: 26px;
 }
 
 .presentation__content__text {
-  font-family: "Montserrat", serif;
+  font-family: var(--first-font);
   font-size: 16px;
 }
 
@@ -73,7 +83,7 @@ body {
 }
 
 .presentation__links__text {
-  font-family: "Krona One", serif;
+  font-family: var(--second-font);
   font-size: 20px;
 }
 
@@ -85,34 +95,36 @@ body {
   width: 50%;
   text-align: center;
   border-radius: 8px;
-  border: solid #3ca6a6;
+  border: solid var(--third-color);
   padding: 10px 0px;
   text-decoration: none;
-  color: #f6f6f6;
+  color: var(--second-color);
   font-size: 24px;
-  font-family: "Montserrat", serif;
+  font-family: var(--first-font);
   font-weight: 600;
 }
 
 .presentation__links__link:hover {
-  background-color: #024959;
+  background-color: var(--color-hover);
 }
 
 .footer {
-  background-color: #3ca6a6;
-  color: #012e40;
-  font-family: "Montserrat", serif;
+  background-color: var(--third-color);
+  color: var(--first-color);
+  font-family: var(--first-font);
   font-weight: 600;
   font-size: 16px;
   text-align: center;
   padding: 10px 0;
 }
 
-/* 
-My Pallet:
-#012E40
-#024959
-#026773
-#3CA6A6
-#F2E3D5
-*/
+.presentation__content__skills__item {
+  font-family: var(--first-font);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.presentation__content__skills__text {
+  font-family: var(--first-font);
+  font-size: 14px;
+}
