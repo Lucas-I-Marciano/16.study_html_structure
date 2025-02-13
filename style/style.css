@@ -108,6 +108,17 @@ body {
   padding: 10px 0;
 }
 
+.presentation__content__skills__item {
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.presentation__content__skills__text {
+  font-family: "Montserrat", serif;
+  font-size: 14px;
+}
+
 /* 
 My Pallet:
 #012E40
