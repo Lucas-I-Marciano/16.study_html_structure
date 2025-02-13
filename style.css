@@ -54,14 +54,19 @@ body {
   align-items: center;
 }
 
+.presentation__links__text {
+  font-family: "Krona One", serif;
+  font-size: 24px;
+}
+
 .presentation__links__link {
-  background-color: #3ca6a6;
-  width: 280px;
+  width: 370px;
   text-align: center;
-  border-radius: 16px;
+  border-radius:8px;
+  border: solid #3ca6a6;
   padding: 21.5px 0px;
   text-decoration: none;
-  color: #000000;
+  color: #f6f6f6;
   font-size: 24px;
   font-family: "Montserrat", serif;
   font-weight: 600;
