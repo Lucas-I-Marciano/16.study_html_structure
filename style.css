@@ -20,6 +20,9 @@ body {
 .highlight-title {
   color: #3ca6a6;
 }
+.highlight-title:hover {
+  text-decoration: underline;
+}
 
 .presentation {
   display: flex;
