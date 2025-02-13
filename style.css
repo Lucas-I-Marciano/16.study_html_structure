@@ -10,7 +10,7 @@ body {
   /* The background-color CSS property sets the background color of an element. */
   color: #f2e3d5;
   /* The color CSS property sets the foreground color value of an element's text    */
-  height: 85vh;
+  /* height: 85vh; */
   /* vh = The full form of VH is viewport height. It works like the percentage unit as well */
   box-sizing: border-box;
   /* The box-sizing CSS property sets how the total width and height of an element is calculated */
@@ -42,12 +42,12 @@ body {
 
 .presentation__content__title {
   font-family: "Krona One", serif;
-  font-size: 36px;
+  font-size: 26px;
 }
 
 .presentation__content__text {
   font-family: "Montserrat", serif;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .presentation__links {
@@ -60,7 +60,7 @@ body {
 
 .presentation__links__text {
   font-family: "Krona One", serif;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .presentation__links__link {
@@ -68,11 +68,11 @@ body {
   justify-content: center;
   gap: 16px;
 
-  width: 370px;
+  width: 50%;
   text-align: center;
-  border-radius:8px;
+  border-radius: 8px;
   border: solid #3ca6a6;
-  padding: 21.5px 0px;
+  padding: 10px 0px;
   text-decoration: none;
   color: #f6f6f6;
   font-size: 24px;
@@ -82,6 +82,16 @@ body {
 
 .presentation__links__link:hover {
   background-color: #024959;
+}
+
+.footer {
+  background-color: #3ca6a6;
+  color: #012e40;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 0;
 }
 
 /* 
