@@ -20,6 +20,9 @@ body {
 .highlight-title {
   color: #3ca6a6;
 }
+.highlight-title:hover {
+  text-decoration: underline;
+}
 
 .presentation {
   display: flex;
@@ -27,6 +30,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 5%;
+  text-align: justify;
 }
 
 .presentation__content {
@@ -60,6 +64,10 @@ body {
 }
 
 .presentation__links__link {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
   width: 370px;
   text-align: center;
   border-radius:8px;
@@ -70,6 +78,10 @@ body {
   font-size: 24px;
   font-family: "Montserrat", serif;
   font-weight: 600;
+}
+
+.presentation__links__link:hover {
+  background-color: #024959;
 }
 
 /* 
