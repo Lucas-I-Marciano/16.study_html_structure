@@ -76,6 +76,10 @@ body {
   font-weight: 600;
 }
 
+.presentation__links__link:hover {
+  background-color: #024959;
+}
+
 /* 
 My Pallet:
 #012E40
