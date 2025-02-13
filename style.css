@@ -60,6 +60,10 @@ body {
 }
 
 .presentation__links__link {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
   width: 370px;
   text-align: center;
   border-radius:8px;
