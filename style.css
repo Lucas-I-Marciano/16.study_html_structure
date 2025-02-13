@@ -30,6 +30,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 5%;
+  text-align: justify;
 }
 
 .presentation__content {
