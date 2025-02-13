@@ -84,6 +84,16 @@ body {
   background-color: #024959;
 }
 
+.footer {
+  background-color: #3ca6a6;
+  color: #012e40;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 0;
+}
+
 /* 
 My Pallet:
 #012E40
