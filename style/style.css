@@ -2,6 +2,7 @@
 
 :root {
   --first-color: #012e40;
+  --color-hover: #024959;
   --second-color: #f2e3d5;
   --third-color: #3ca6a6;
 
@@ -97,14 +98,14 @@ body {
   border: solid var(--third-color);
   padding: 10px 0px;
   text-decoration: none;
-  color: #f6f6f6;
+  color: var(--second-color);
   font-size: 24px;
   font-family: var(--first-font);
   font-weight: 600;
 }
 
 .presentation__links__link:hover {
-  background-color: #024959;
+  background-color: var(--color-hover);
 }
 
 .footer {
